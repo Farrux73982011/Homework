@@ -44,23 +44,8 @@
 // let money_3 = prompt('Сколько у вас денег?');
 // let commanda = prompt('С вами сколько людей');
 
-// if(name_2 === "а" ){
-//     if(age_ >= 20 && age_ <= 40){
-//         if(money_3 >= 100){
-//             if(commanda <= 10){
-//                 alert('Welcome')
-//             }
-//             else{
-//                 alert('Иди')
-//             }
-//         }
-//         else{
-//             alert('Иди')
-//         }
-//     }
-//     else{
-//         alert('Иди')
-//     }
+// if(name_2 === "а" && age_ >= 20 && age_ <= 40 && money_3 >= 100 && commanda <= 10){
+//     alert('Welcome')
 // }else{
 //     alert('Иди отсюда')
 // }
