@@ -1,5 +1,5 @@
 // let b = prompt('Напиши что нибудь')
-// let a = ['amir','farrux', 'sunnat']
+// let a = ['Aleksey', 'Kartoshka', 'Margarita' , 'Morgenshtern', 'Monica']
 // let f = a.splice(a.indexOf(b), 1)
 
 // console.log(a);
