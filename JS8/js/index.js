@@ -26,12 +26,13 @@ let passport ={
         data: "2011-12-14",
         exp: "3000-1-1"
     }
-let obj_keys = Object.keys(farrux)
+
 
 Object.assign(farrux, {passport})
 
+let obj_keys = Object.keys(farrux)
 let obj_values = Object.values(farrux)
-let obj_keys_and_valeus = Object.entries(farrux, obj_keys, obj_values, obj_keys, obj_values)
+let obj_keys_and_valeus = Object.concat(farrux, obj_keys, obj_values, obj_keys, obj_values)
 
 let types = {
     string: [],
@@ -40,9 +41,6 @@ let types = {
     object: []
 }
 
-for (let key in obj_keys_and_valeus) {
-    let type = typeof obj_keys_and_valeus[key];
-    types[type].push(key);
-}
+
 console.log(obj_values, obj_keys, obj_keys_and_valeus, farrux);
 
