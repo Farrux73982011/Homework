@@ -65,7 +65,7 @@ cars.forEach((cars) => {
         Company: ${cars.company}  <br>
         Discount: ${cars.discount} <br>
         pros:${cars.engineForce * 100 / 10}%
-        <div class="engine" >
+        <div class="motor" >
             <div class="fill" style="width: ${cars.engineForce * 100 / 10}%" ></div>
         </div>
     <hr>
