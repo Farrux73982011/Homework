@@ -80,6 +80,26 @@ let jobs = [
     ],
   },  
   {
+    id: 5,
+    company_name: "desla",
+    tax: 14,
+    budget: 14_000_000,
+    expensesPerYear: [
+      {
+        title: "furniture",
+        total: 700_000,
+      },
+      {
+        title: "salary",
+        total: 3_000_000,
+      },
+      {
+        title: "rent",
+        total: 5_000_000,
+      },
+    ],
+  },
+  {
     id: 6,
     company_name: "desla",
     tax: 14,
@@ -101,26 +121,6 @@ let jobs = [
   },
   {
     id: 7,
-    company_name: "desla",
-    tax: 14,
-    budget: 14_000_000,
-    expensesPerYear: [
-      {
-        title: "furniture",
-        total: 700_000,
-      },
-      {
-        title: "salary",
-        total: 3_000_000,
-      },
-      {
-        title: "rent",
-        total: 5_000_000,
-      },
-    ],
-  },
-  {
-    id: 8,
     company_name: "nosway_u_rustama",
     tax: 10,
     budget: 100_000,
@@ -140,7 +140,7 @@ let jobs = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     company_name: "vinovodochnaya_u_timura",
     tax: 21,
     budget: 1_000_000,
@@ -160,7 +160,7 @@ let jobs = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     company_name: "sokhib_books",
     tax: 10,
     budget: 400_000,
@@ -206,6 +206,8 @@ for (let item of jobs) {
   } else unsucsesfull.push(item.company_name);
   max = Math.max.apply(null,arr)
   min = Math.min.apply(null,arr)
+  let summ = orvk / 9
+  console.log(summ);
 }
 
 console.log(max);
