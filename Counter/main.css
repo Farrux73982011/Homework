@@ -11,7 +11,7 @@ body{
 }
 .container .counter{
     font-size: 100px;
-    margin: 180px 0 0 270px;
+    margin: 180px 0 0 420px;
 }
 .container .num{
     font-size: 300px;
@@ -34,4 +34,10 @@ body{
     font-size: 40px;
     border-radius: 11px;
     padding: 10px;
+}
+.container .random{
+    font-size: 40px;
+    border-radius: 11px;
+    padding: 10px;
+    margin: 0  0 0 43px;
 }
