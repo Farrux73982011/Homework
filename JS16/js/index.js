@@ -2,7 +2,7 @@ let dengi = document.querySelector('.dengi')
 let b1 = document.querySelectorAll('[data-opi]')
 let colorBtns1 = document.querySelectorAll('.buttonsss')
 let colorBtns2 = document.querySelectorAll('.buttons')
-let img = document.querySelectorAll('imgs_iph')
+let img = document.querySelectorAll('.imgs_iph')
 
 let pictures = {
     White: '../img/mbp14-spacegray-select-202110 1.png',
@@ -21,7 +21,6 @@ b1.forEach(btn => {
     btn.onclick = () => {
         let key = btn.getAttribute('data-opi')
         dengi.innerHTML = orgPrice + dengiobj[key]
-        console.log(btn);
     }
 })
 
